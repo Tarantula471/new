@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+}
+#container{
+  min-height: 100%;
+}
+#main{
+  overflow: auto;
+  padding-top: 15px;
+  padding-bottom: 320px;
+}
+#footer{
+  background-color: #000;
+  position: relative;
+  height: 100px;
+  padding-left: 600px;
+padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: -100px;
+  color: white;
+  clear: both;
+}
