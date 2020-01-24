@@ -6,7 +6,7 @@
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<link rel="stylesheet" type="text.css" href="style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -47,7 +47,7 @@ article {
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 800px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
@@ -55,14 +55,6 @@ section:after {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: rgb(255,51,0);
-  padding: 10px;
-  text-align: center;
-  color: white;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
@@ -76,18 +68,21 @@ footer {
 </head>
 <body>
   <div id="wrapper"></div>
- <img src="logo.png" height="150" width="140" align="left">
+ <img src="logo.png" height="155" width="145" align="left">
 
 <header>
-  <h2>Commitee</h2>
+  <h1>COMMITTEE</h1>
 </header>
-<div class="list-group">
-  <button type="button" class="list-group-item" style="width :200px;height :70px;"><a href="#">Faculty</a></button>
-  <button type="button" class="list-group-item" style="width :200px; height:70px;"><a href="#">College</a></button>
-  <button type="button" class="list-group-item" style="width :200px;height :70px;"><a href="#">Hostel</a></button>
+<div id="container">
+  <div class="list-group" id="main">
+    <button type="button" class="list-group-item" style="width :200px;height :70px;"><a href="#">Faculty</a></button>
+    <button type="button" class="list-group-item" style="width :200px; height:70px;"><a href="#">College</a></button>
+    <button type="button" class="list-group-item" style="width :200px;height :70px;"><a href="#">Hostel</a></button>
+  </div>
+
 </div>
-<footer>
-  <p>Contact</p>
+<footer id="footer">
+  <h3>Contact</h3>
 </footer>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
